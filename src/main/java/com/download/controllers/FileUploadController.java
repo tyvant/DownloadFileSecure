@@ -28,7 +28,7 @@ public class FileUploadController {
     @POST
     @Path("/upload")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
-    public Response unauthenticatedUpload(@FormDataParam("fileData")InputStream inputStream,@FormDataParam("fileData")FormDataContentDisposition contentDisposition
+    public Response upload(@FormDataParam("fileData")InputStream inputStream, @FormDataParam("fileData")FormDataContentDisposition contentDisposition
                                           ) throws IOException {
 
         return handleUpload(contentDisposition, inputStream);

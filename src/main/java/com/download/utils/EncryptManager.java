@@ -12,10 +12,7 @@ import java.security.SecureRandom;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.KeySpec;
 
-/**
- * Encryption / Decryption service using the AES algorithm
- * example for nullbeans.com
- */
+
 public class EncryptManager {
      private final static String key="EqUiSign2Me@Home";
     /**
