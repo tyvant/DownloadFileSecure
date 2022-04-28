@@ -1,4 +1,4 @@
-package configuration;
+package com.download.configuration;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

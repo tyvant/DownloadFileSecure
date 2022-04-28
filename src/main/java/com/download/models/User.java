@@ -1,4 +1,4 @@
-package models;
+package com.download.models;
 
 import java.security.Principal;
 

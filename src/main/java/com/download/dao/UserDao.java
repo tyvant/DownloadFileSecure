@@ -1,6 +1,6 @@
-package dao;
+package com.download.dao;
 
-import models.User;
+import com.download.models.User;
 import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.statement.SqlQuery;
 import org.jdbi.v3.sqlobject.statement.SqlUpdate;

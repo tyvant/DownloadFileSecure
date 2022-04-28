@@ -1,7 +1,7 @@
-package healthCheck;
+package com.download.healthCheck;
 
 import com.codahale.metrics.health.HealthCheck;
-import repository.UserRepository;
+import com.download.repository.UserRepository;
 
 public class DownloadFileAppHealthCheck extends HealthCheck {
     private static final String HEALTHY = "The Dropwizard blog Service is healthy for read and write";

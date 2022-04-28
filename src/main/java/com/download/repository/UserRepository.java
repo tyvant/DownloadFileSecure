@@ -1,7 +1,7 @@
-package repository;
+package com.download.repository;
 
-import dao.UserDao;
-import models.User;
+import com.download.dao.UserDao;
+import com.download.models.User;
 import org.jdbi.v3.core.Jdbi;
 import org.jdbi.v3.core.mapper.RowMapper;
 import org.jdbi.v3.core.statement.StatementContext;

@@ -1,9 +1,9 @@
-package controllers;
+package com.download.controllers;
 
 import com.codahale.metrics.annotation.Timed;
 import io.dropwizard.auth.Auth;
-import models.User;
-import repository.UserRepository;
+import com.download.models.User;
+import com.download.repository.UserRepository;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
@@ -27,6 +27,7 @@ public class UsersControllers {
     public Response get (@PathParam("username") String username, @Auth User us){
           User user = repository.findByUsername(username);
         return Response.status(OK).entity(user).build();
+
     }
 
     @POST

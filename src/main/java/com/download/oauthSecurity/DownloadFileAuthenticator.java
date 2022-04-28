@@ -1,12 +1,12 @@
-package oauthSecurity;
+package com.download.oauthSecurity;
 
 import java.util.Optional;
 
 import io.dropwizard.auth.AuthenticationException;
 import io.dropwizard.auth.Authenticator;
 import io.dropwizard.auth.basic.BasicCredentials;
-import models.User;
-import repository.UserRepository;
+import com.download.models.User;
+import com.download.repository.UserRepository;
 
 public class DownloadFileAuthenticator implements Authenticator<BasicCredentials, User> {
       private final UserRepository userRepository;
